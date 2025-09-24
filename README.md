@@ -4,13 +4,7 @@
 
 ---
 
-## 📁 폴더 구조
+## 📁 알고리즘 폴더 바로가기
 
-```
-src
-└── baekjoon
-    └── [bfs](./src/baekjoon/bfs)
-```
+- **BFS 문제 모음**: [`bfs`](./src/baekjoon/bfs)
 
-### 주요 알고리즘
-- **BFS**: 1 문제
