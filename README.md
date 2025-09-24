@@ -6,12 +6,11 @@
 
 ## 📁 폴더 구조
 
-- `src/baekjoon/bfs/문제폴더`
-- `src/baekjoon/dp/문제폴더`
-- `src/programmers/level1/문제파일`
-- `...`
-
----
+'''
+src
+└── baekjoon
+    └── [bfs](./src/baekjoon/bfs)
+'''
 
 ## 📈 진행 상황 (Progress)
 
