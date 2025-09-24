@@ -1,4 +1,4 @@
-package baekjoon.p4179;
+package baekjoon.bfs.p4179;
 
 import java.util.*;
 import java.io.*;
