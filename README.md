@@ -6,16 +6,11 @@
 
 ## 📁 폴더 구조
 
-'''
+```
 src
 └── baekjoon
     └── [bfs](./src/baekjoon/bfs)
-'''
-
-## 📈 진행 상황 (Progress)
-
-- **Baekjoon**: 1 문제 해결
-- **Programmers**: 0 문제 해결
+```
 
 ### 주요 알고리즘
 - **BFS**: 1 문제
