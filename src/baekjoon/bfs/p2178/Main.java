@@ -39,7 +39,6 @@ public class Main {
         System.out.println(nums[N-1][M-1]);
 
         return;
-
     }
 
     static class Point {
