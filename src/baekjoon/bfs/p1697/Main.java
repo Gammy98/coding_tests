@@ -30,7 +30,6 @@ public class Main {
 
         while (!queue.isEmpty()) {
             int current = queue.poll();
-
             int[] next = {current - 1, current + 1, current * 2};
             for (int i : next) {
 
