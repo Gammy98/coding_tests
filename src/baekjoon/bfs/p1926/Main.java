@@ -67,7 +67,6 @@ public class Main {
                 if (nx >= n || nx <0 || ny >= m || ny<0 || page[nx][ny] != 1){
                     continue;
                 }
-
                 page[nx][ny] = 0; //방문처리
                 area ++;
                 queue.add(new Point(nx,ny));
