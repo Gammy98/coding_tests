@@ -78,8 +78,6 @@ public class Main {
                     queue.add(new Point (nx,ny));
                 }
             }
-
-
         }
     }
 
