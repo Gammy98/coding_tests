@@ -8,7 +8,7 @@ public class Main{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
         int[] cost = new int[3];
-ㄱ
+
         for (int i = 0; i < N; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
             int currentR = Integer.parseInt(st.nextToken());
