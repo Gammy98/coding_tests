@@ -30,7 +30,6 @@ public class Main {
             }
         }
     }
-
     static void push(int x) {
         queue[tail++] = x;
     }
