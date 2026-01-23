@@ -15,9 +15,11 @@ public class Main {
         L = Integer.parseInt(st.nextToken());
         R = Integer.parseInt(st.nextToken());
         C = Integer.parseInt(st.nextToken());
-
         building = new char[L][R][C];
 
+        int escatpe_time = 0;
+
+        //building 초기화
         for (int i = 0; i < L; i++) {
             for (int j = 0; j < R; j++) {
                 st = new StringTokenizer(br.readLine());
@@ -26,6 +28,8 @@ public class Main {
                 }
             }
         }
+
+
     }
 
 }
