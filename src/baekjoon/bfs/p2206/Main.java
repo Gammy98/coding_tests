@@ -49,7 +49,8 @@ public class Main {
                     continue;
                 }
 
-                if (map[nx][ny] == 0) {
+                //2층건물이라고 생각하고 벽을 한번이라도 부수면 2층에서만 이동해야한다고 생각해라 (다시 내려가는건안된다)
+                if (map[nx][ny] == 0) {  // 일반적인 경우 그대로 가면된다
                     if (!visited[nx][ny][curr.broken]) {
                         visited[nx][ny][curr.broken] = true;
                         queue.add(new Point(nx, ny, curr.dist + 1, curr.broken));
