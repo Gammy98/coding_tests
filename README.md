@@ -11,6 +11,6 @@
 - **Stack 문제 모음**: [`stack`](./src/baekjoon/stack)
 - **Queue 문제 모음**: [`queue`](./src/baekjoon/queue)
 - **Deque 문제 모음**: [`deque`](./src/baekjoon/deque)
-- **BFS 문제 모음**: [`bfs`](./src/baekjoon/bfs)
+- **BFS 문제 모음**: [`bfs`](./src/baekjoon/graphsearch)
 
 
