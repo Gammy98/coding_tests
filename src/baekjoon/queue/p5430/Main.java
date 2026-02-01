@@ -24,8 +24,8 @@ public class Main {
                 }
             }
 
-            boolean isForward = true;
-            boolean isError = false;
+            boolean isForward = true; //R의 유무에 따라 달라짐
+            boolean isError = false; //에러판단
 
             // 명령어 처리
             for (char cmd : p.toCharArray()) {
