@@ -6,7 +6,10 @@
 - **알고리즘 태그:** #DFS #재귀
 
 ## 💡 접근 방법
-
+- visited[] : 방문중이거나 방문이 완료됨을 표시
+- finished[] : 해당 노드에서 시작된 모든 탐색이 완전히 종료됨을 표시(사이클 확인용)
+- vistied == true && finished == false : 현재 dfs 경로상의 노드 (이 노드 만나면 사이클 인)
+- vistied == true && finished == true : 이미 검사가 끝난 노드
 
 (⭐핵심) 재귀를 활용한 dfs로 순환구조 파악이 핵심
 .
