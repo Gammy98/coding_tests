@@ -1,4 +1,4 @@
-package baekjoon.graphsearch.p9466__;
+package baekjoon.graphsearch.p9466;
 
 import java.io.*;
 import java.util.*;
