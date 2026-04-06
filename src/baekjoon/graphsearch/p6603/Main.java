@@ -7,8 +7,7 @@ public class Main {
     static int K;
     static StringBuilder sb = new StringBuilder();;
     static int[] arr;
-    static boolean[] visited;
-    static int[] lotto;
+    static int[] lotto = new int[6];
 
     public static void main(String[] args) throws IOException {
         //입력
@@ -20,7 +19,6 @@ public class Main {
                 break;
             }
             arr = new int[K];
-            visited = new boolean[K];
             for (int i = 0; i < K; i++) {
                 arr[i] = Integer.parseInt(st.nextToken());
             }
@@ -35,20 +33,16 @@ public class Main {
 
     static void combination(int start, int cnt) {
         if (cnt == 6) {
-            for (int i = 0; i < K; i++) {
-                if (visited[i]) {
-                    sb.append(arr[i]).append(" ");
-                }
+            for (int val : lotto) {
+                sb.append(val).append(" ");
             }
             sb.append("\n");
+            return;
         }
 
-        for (int i = start; i < K; i++) {
-            if (!visited[i]) {
-                visited[i] = true;
-                combination(i+1, cnt + 1);
-                visited[i] = false;
-            }
+        for (int i = start; i <= K-(6-cnt); i++) {
+            lotto[cnt] = arr[i];
+            combination(i + 1, cnt + 1);
         }
     }
 }
